@@ -20,37 +20,46 @@ export default function Edit( { attributes, setAttributes } ) {
 		return select( 'core/editor' ).getEditedPostAttribute('type');
 	});
 
+	console.log(type_post);
+
+	let css_class = 'wp-block-title';
+	
+	if(type_post=="post"){
+
 	/**only works with post
 	 * category id es hardcode
 	 *  */ 
-    if(type_post == 'post'){
-		let css_class = '';
+
 		switch(category[0]){
 			case 3:
 			css_class = "wp-block-title_national";
 			break;
 
 			case 4:
-			css_class = "wp-block-title_entertainment";
-			break;
-			
-			case 5:
-			css_class = "wp-block-title_technology";	
-			break;
-			
-			case 6:
 			css_class = "wp-block-title_pets";	
 			break;
 
-			case 7: 
+			case 5: 
 			css_class = "wp-block-title_sports";
 			break;
+
+			case 6:
+			css_class = "wp-block-title_entertainment";
+			break;
+			
+			case 7:
+			css_class = "wp-block-title_technology";	
+			break;
+			
+			
+		
 			
 			default:
 				css_class = "wp-block-title";
 
 		}
 	}
+
 
 	return (
 		<div {...blockProps}>
