@@ -1,0 +1,33 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "create-block/clarosportsvc",
+  "version": "0.1.0",
+  "title": "Claro Sports VC",
+  "category": "widgets",
+  "icon": "smiley",
+  "description": "Prueba técnica Victor Caudillo",
+  "example": {},
+  "supports": {
+    "html": false
+  },
+  "attributes": {
+    "title": {
+      "type": "string",
+      "source": "html",
+      "selector": "h3",
+      "default": "Ingrese el título"
+    },
+    "description": {
+      "type": "string",
+      "source": "html",
+      "selector": "p",
+      "default": "Ingrese la descripción"
+    }
+  },
+  "textdomain": "clarosportsvc",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css",
+  "viewScript": "file:./view.js"
+}

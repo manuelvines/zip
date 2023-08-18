@@ -1,0 +1,1 @@
+{"version":3,"file":"view.js","mappings":";;;;;AAAA;AACAA,OAAO,CAACC,GAAG,CAAE,sDAAuD,CAAC;AACrE,8B","sources":["webpack://clarosportsvc/./src/view.js"],"sourcesContent":["/* eslint-disable no-console */\nconsole.log( 'Hello World! (from create-block-clarosportsvc block)' );\n/* eslint-enable no-console */\n"],"names":["console","log"],"sourceRoot":""}

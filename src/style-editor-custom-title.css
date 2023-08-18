@@ -1,0 +1,24 @@
+
+.wp-block-title{
+  background-color: #00D3F8;
+}
+
+.wp-block-title_national{
+  background-color: red;
+}
+
+.wp-block-title_entertainment{
+	background-color: #FFC915;
+ }
+
+  .wp-block-title_technology{
+	background-color: #00D3F8;
+  }
+
+  .wp-block-title_pets{
+	background-color: #90456D;
+  }
+
+  .wp-block-title_sports{
+	background-color: #FF372C;
+  }
