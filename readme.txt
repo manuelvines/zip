@@ -9,4 +9,5 @@ License URI:       https://www.gnu.org/licenses/gpl-2.0.html
 Example block with title and description 
 
 == Description ==
-[![Watch the video](https://img.youtube.com/vi/yBZgxq-GGJs/0.jpg)](https://youtu.be/yBZgxq-GGJs)
+
+VIDEO => https://youtu.be/yBZgxq-GGJs
